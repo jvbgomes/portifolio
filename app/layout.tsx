@@ -7,6 +7,12 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'João Victor — Desenvolvedor de Software',
   description: 'Portfólio de João Victor, desenvolvedor de software.',
+  openGraph: {
+    title: 'João Victor — Desenvolvedor de Software',
+    description: 'Portfólio de João Victor, desenvolvedor de software.',
+    url: 'https://joaovbgomes.vercel.app',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
