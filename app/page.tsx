@@ -59,14 +59,14 @@ export default function Home() {
         <h1 className={styles.name}>João Victor</h1>
         <p className={styles.subtitle}>Desenvolvedor de Software</p>
 
-        <div className={styles.contacts}>
+        <nav aria-label="Contatos" className={styles.contacts}>
           {CONTACTS.map(({ label, href, icon: Icon }) => (
-            <a key={label} href={href} target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
+            <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={label} className={styles.contactLink}>
               <Icon />
               {label}
             </a>
           ))}
-        </div>
+        </nav>
       </section>
 
       <div className={styles.grid}>
