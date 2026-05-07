@@ -27,14 +27,14 @@
 }
 
 .name {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
   font-weight: 600;
   color: var(--text);
   letter-spacing: -0.02em;
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: var(--muted);
   font-weight: 400;
 }
@@ -74,9 +74,9 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 1.25rem;
   width: 100%;
-  max-width: 640px;
+  max-width: 820px;
 }
 
 @media (max-width: 520px) {
@@ -89,10 +89,10 @@
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .cardTitle {
@@ -106,13 +106,13 @@
 /* Education */
 
 .degree {
-  font-size: 0.9375rem;
+  font-size: 1.0625rem;
   font-weight: 500;
   color: var(--text);
 }
 
 .school {
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: var(--muted);
   line-height: 1.4;
 }
@@ -138,13 +138,13 @@
 }
 
 .langName {
-  font-size: 0.9375rem;
+  font-size: 1.0625rem;
   font-weight: 500;
   color: var(--text);
   flex: 1;
 }
 
 .langLevel {
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
   color: var(--muted);
 }
