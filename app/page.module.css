@@ -24,6 +24,11 @@
   object-fit: cover;
   object-position: center;
   flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.avatar:hover {
+  transform: scale(1.04);
 }
 
 .name {
